@@ -1,0 +1,31 @@
+{
+  "format": "custom",
+  "id": "menu",
+  "label": "Menu",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "menu": {
+        "type": "Group",
+        "config": {
+          "label": "Menu",
+          "repeat": true,
+          "fields": {
+            "menuitem": {
+              "type": "Link",
+              "config": {
+                "label": "MenuItem",
+                "placeholder": "",
+                "select": null,
+                "allowTargetBlank": true,
+                "allowText": true,
+                "repeat": false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
